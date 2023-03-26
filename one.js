@@ -139,6 +139,9 @@ myFunction();
 // there is a way to declare and execute a function in one step
 // it is rarely used, called immediately invoked functions.
 
-function anotherFunction() {
+function anotherFunction() {}
 
-}  
+// function 2 with parameters
+function secondFunction(param1, param2) {
+  console.log(param1);
+}
